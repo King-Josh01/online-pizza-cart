@@ -1,0 +1,76 @@
+styles
+
+body {
+    background-color: rgb(219, 57, 211);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+.pizza {
+    border: 1px solid burlywood;
+    padding: 1em;
+    margin: 1em;
+    margin-bottom: 0.5em;
+    border-radius: 2em;
+    display: inline-block;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: normal;
+   
+}
+
+.medium_pizza {
+    background-color: rgb(221, 218, 31);
+}
+
+.large_pizza {
+    background-color: rgb(65, 42, 165);
+}
+
+.small_pizza {
+    background-color: rgb(56, 200, 63);
+}
+
+.contact_us {
+    background-color: rgb(159, 202, 79);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    padding-bottom: 0cm;
+    margin-bottom: 0.5em;
+    border-radius: 0.5em;
+}
+.special{
+    background-color: black;
+    color: aliceblue;
+    margin: 0em;
+}
+@media (min-width: 760px) {
+
+    body {
+        background-color: rgb(121, 211, 169);
+       
+    }
+
+    .pizza_flex{
+        display: flex;
+    }
+    
+
+@media (min-width: 960px) {
+
+    body {
+        background-color: rgb(141, 59, 122);
+       
+    }
+    .pizza_flex{
+        display: flex;
+    }
+    
+   
+} 
+}
+
+.cart {
+    background-color: greenyellow;
+    text-align: center;
+}
